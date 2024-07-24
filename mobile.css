@@ -1,0 +1,68 @@
+@media(max-width:450px){
+
+    header{
+        padding: 10px 15px;
+    }
+    
+    nav{
+        width: 80%;
+        gap: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+    
+    #about article{
+        padding: 50px 30px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #about article img{
+        width: 70%;
+    }
+    
+    #about article div{
+        width: 100%;
+        gap: 40px;
+    }
+    
+    #about article div p{
+        text-emphasis: justify;
+    }
+    
+    
+    #astro article{
+        padding: 50px;
+        gap: 20px;
+        justify-content: center;
+
+    }
+    
+    #astro  article img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #contact article{
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #contact article div{
+        width: 100%;
+    }
+
+    #contact article div p{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contact article form{
+        width: 100%;
+    }
+}
